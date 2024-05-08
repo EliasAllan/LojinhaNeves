@@ -1,0 +1,14 @@
+*{
+  background-color: rgb(153, 68, 233);
+}
+
+.pic{
+  height: 200px;
+  width: 300px;
+  border-radius: 25%;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+}
