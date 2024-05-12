@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './style/Home.css'
 import Product from '../components/Product/Product';
-import logo from '../../public/images/Logo.png'
-import instaLogo from "../../public/images/Instagram_Glyph_Gradient.png";
+import logo from '../../images/Logo.png'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import '../components/Footer/Footer.css'
 
@@ -15,6 +14,36 @@ const App = () => {
       name: 'Cookies',
       price: 50,
       images: ['/images/image1.jpg', '/images/image2.jpg', '/images/image3.jpg'],
+    },
+    {
+      name: 'Cookies',
+      price: 50,
+      images: ['/images/image1.jpg', '/images/image2.jpg', '/images/image3.jpg'],
+    },
+    {
+      name: 'Biscoito',
+      price: 60,
+      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+    },
+    {
+      name: 'Biscoito',
+      price: 60,
+      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+    },
+    {
+      name: 'Biscoito',
+      price: 60,
+      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+    },
+    {
+      name: 'Biscoito',
+      price: 60,
+      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+    },
+    {
+      name: 'Biscoito',
+      price: 60,
+      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
     },
     {
       name: 'Biscoito',
@@ -35,7 +64,9 @@ const App = () => {
           <Product key={index} name={product.name} price={product.price} images={product.images} />
         ))}
       <section id="footer-icons">
-      <Link to="https://www.facebook.com/allan.elias.9406" href="true">
+    </section>
+      </div>
+      {/* <Link to="https://www.facebook.com/allan.elias.9406" href="true">
       <img
         className="footer-icon"
         src={instaLogo}
@@ -43,9 +74,7 @@ const App = () => {
         width="40px"
         height="40px"
       />
-      </Link>
-    </section>
-      </div>
+      </Link> */}
     </div>
     </Router>
     </>
