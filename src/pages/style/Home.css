@@ -1,5 +1,8 @@
-*{
-  background-color: rgb(153, 68, 233);
+h1,h2,p{
+ color: black;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pic{
@@ -11,4 +14,17 @@
 .app{
   display: flex;
   flex-direction: column;
+}
+
+header{
+  background-color: rgb(153, 68, 233);
+  display: flex;
+  justify-content: center;
+}
+
+.products{
+  background-color: rgb(247, 237, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
