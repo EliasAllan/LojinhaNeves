@@ -4,6 +4,13 @@ import Product from '../components/Product/Product';
 import logo from '../../images/Logo.png'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import '../components/Footer/Footer.css'
+import image1 from'../../images/image1.jpg'
+import image2 from'../../images/image2.jpg'
+import image3 from'../../images/image3.jpg'
+import image4 from'../../images/image4.jpg'
+import image5 from'../../images/image5.jpg'
+import image6 from'../../images/image6.jpg'
+import image7 from'../../images/image7.jpg'
 
 
 
@@ -13,42 +20,42 @@ const App = () => {
     {
       name: 'Cookies',
       price: 50,
-      images: ['/images/image1.jpg', '/images/image2.jpg', '/images/image3.jpg'],
+      images: [image1, image2, image3],
     },
     {
       name: 'Cookies',
       price: 50,
-      images: ['/images/image1.jpg', '/images/image2.jpg', '/images/image3.jpg'],
+      images: [image1, image2, image3],
     },
     {
       name: 'Biscoito',
       price: 60,
-      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+      images: [image4, image5, image6],
     },
     {
       name: 'Biscoito',
       price: 60,
-      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+      images: [image4, image5, image6],
     },
     {
       name: 'Biscoito',
       price: 60,
-      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+      images: [image4, image5, image6],
     },
     {
       name: 'Biscoito',
       price: 60,
-      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+      images: [image4, image5, image6],
     },
     {
       name: 'Biscoito',
       price: 60,
-      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+      images: [image4, image5, image6],
     },
     {
       name: 'Biscoito',
       price: 60,
-      images: ['/images/image4.jpg', '/images/image5.jpg', '/images/image6.jpg'],
+      images: [image4, image5, image6],
     },
   ];
 

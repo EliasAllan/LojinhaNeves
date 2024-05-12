@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from '../Carousel/Carousel';
 
 const Product = ({ name, price, images }) => {
