@@ -13,9 +13,9 @@ const Carousel = ({ images }) => {
   
     return (
       <div className="carousel">
-        <button onClick={prevSlide}>Prev</button>
+        {/* <button onClick={prevSlide}>Prev</button> */}
         <img className="pic" src={images[currentIndex]} alt="product" />
-        <button onClick={nextSlide}>Next</button>
+        {/* <button onClick={nextSlide}>Next</button> */}
       </div>
     );
   };
