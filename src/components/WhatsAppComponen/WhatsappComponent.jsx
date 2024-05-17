@@ -6,7 +6,7 @@ const WhatsAppLink = ({ phoneNumber, message }) => {
   const link = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
-      Chat with us on WhatsApp
+      Mande mensagem nesse chat pra fazer um pedido !
     </a>
   );
 };

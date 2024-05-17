@@ -166,7 +166,7 @@ const App = () => {
       <img id="store-logo" src={logo} alt="Logo" />
       </header>
       <section id="links">
-      <WhatsAppLink phoneNumber="5544984646324" message="Mande mensagem nesse chat pra fazer um pedido !" />
+      <WhatsAppLink phoneNumber="5544984646324" message="Ola ! Queria saber mais sobre seus produtos!" />
       </section>
       <div className="products">
         {products.map((product, index) => (
