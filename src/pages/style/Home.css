@@ -6,9 +6,12 @@ h1,h2,p{
 }
 
 .pic{
-  height: 200px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   border-radius: 25%;
+  margin: 7px;
+  border-style: solid;
+  border-color: rgb(219, 154, 219);
 }
 
 .app{
@@ -20,6 +23,7 @@ header{
   background-color: #EAD6FF;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .products{
@@ -28,9 +32,16 @@ header{
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  
 }
 
 #store-logo{
-  /* width: 30vw; */
   height: 30vw;
+}
+
+#links{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 237, 248);
 }

@@ -1,0 +1,11 @@
+a {
+    color: #25D366; /* WhatsApp green */
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    background-color:   #EAD6FF;;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

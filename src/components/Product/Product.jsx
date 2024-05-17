@@ -5,7 +5,7 @@ const Product = ({ name, price, images }) => {
     return (
       <div className="product">
         <h2>{name}</h2>
-        <p>Preço: ${price}</p>
+        {/* <p>Preço: ${price}</p> */}
         <Carousel images={images} />
       </div>
     );
